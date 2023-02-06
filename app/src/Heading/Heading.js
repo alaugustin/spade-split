@@ -1,4 +1,4 @@
-import './heading.css'
+import './heading.css';
 import React from 'react';
 import PropTypes from 'prop-types'
 
@@ -6,7 +6,7 @@ const Heading = props => {
   const { HeadingTag, className, text } = props;
 
   return (
-    <HeadingTag className={className ? className : ''}>
+    <HeadingTag className={className ? className : null}>
       {text}
     </HeadingTag>
   );

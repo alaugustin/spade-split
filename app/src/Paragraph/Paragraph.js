@@ -1,12 +1,12 @@
 import './paragraph.css';
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const Paragraph = (props) => {
   const { className, paragraphCopy } = props;
 
   return (
-    <p className={className ? className : ''} >{paragraphCopy}</p>
+    <p className={className ? className : null} >{paragraphCopy}</p>
   );
 }
 
