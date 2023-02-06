@@ -1,0 +1,30 @@
+.teamCard {
+  height: 180px;
+  border-color: #efefef;
+  border-image: none;
+  border-radius: 6;
+  border-style: solid;
+  border-width: 1px 1px 2px;
+  position: relative;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 85px;
+
+  &--profileImage {
+      position: absolute;
+      top: -64px;
+      border-radius: 50%;
+      width: 135px;
+      border: 1px solid #efefef;
+    }
+}
+
+.profileImage {
+  width: 135px;
+}
+
+.teamCard {
+  position: relative;
+  border-radius: 6px;
+}
