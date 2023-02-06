@@ -1,4 +1,4 @@
-import './div.css';
+import './div.scss';
 import React from 'react';
 import PropTypes from 'prop-types';
 

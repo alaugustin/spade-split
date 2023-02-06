@@ -1,4 +1,4 @@
-import './mainPage.css';
+import './mainPage.scss';
 import ExecTeam from '../ExecTeam/ExecTeam';
 import data from '../data.json'
 

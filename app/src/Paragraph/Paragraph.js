@@ -1,4 +1,4 @@
-import './paragraph.css';
+import './paragraph.scss';
 import React from 'react';
 import PropTypes from 'prop-types';
 

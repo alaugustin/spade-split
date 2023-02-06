@@ -1,4 +1,4 @@
-import './heading.css';
+import './heading.scss';
 import React from 'react';
 import PropTypes from 'prop-types'
 
